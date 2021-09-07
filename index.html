@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Manipulação de Atributos - JavaScript</title>
+    <link rel="stylesheet" href="Assets/css/style.css"/>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Manipulação de Atributos - JavaScript</h1>
+      </header>
+      <section>
+        <div>
+          <!-- elemento HTML(img) contendo atributo específico para manipulação -->
+          <img src="Assets/images/cachorro.jpg" data-animal="Cachorro" class="imagem"/>
+          <!-- -->
+        </div>
+        <div id="sobreAnimal">
+          <!-- Conteúdo HTML ... -->
+        </div>
+        <div class="atualizar">
+          <button type="button" onclick="trocarImagem('cachorro.jpg', 'Cachorro')">Cachorro</button>
+          <button type="button" onclick="trocarImagem('gato.jpg', 'Gato')">Gato</button>
+          <button type="button" onclick="trocarImagem('coelho.jpg', 'Coelho')">Coelho</button>
+          <button type="button" onclick="pegarAnimal()">Qual é o Animal ?</button>
+        </div>
+      </section>
+    </article>
+    <script src="Assets/js/script.js"></script>
+  </body>
+</html>

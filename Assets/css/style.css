@@ -1,0 +1,21 @@
+.imagem {
+  width: 500px!important;
+  height: 400px!important;
+  margin: 20px!important;
+  border:5px solid #101010!important;
+  border-color: #101010!important;
+  border-style: solid!important;
+  border-radius: 5px!important;
+  box-shadow: 3px 3px 3px #006600!important;
+}
+#sobreAnimal {
+  margin: 20px!important;
+}
+.atualizar {
+  margin: 20px!important;
+}
+.atualizar button {
+  margin-left: 10px!important;
+  margin-right: 10px!important;
+  cursor: pointer!important;
+}
